@@ -1,0 +1,21 @@
+.header {
+	padding: 24px 16px;
+	display: flex;
+	justify-content: space-between;
+	h1 {
+		margin: 0;
+	}
+	.action-container {
+		display: flex;
+		align-items: center;
+		.action-icon {
+			margin-left: 16px;
+			height: 25px;
+			width: 25px;
+		}
+	}
+	.profile-container {
+		display: flex;
+		align-items: center;
+	}
+}
